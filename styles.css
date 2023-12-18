@@ -99,7 +99,7 @@ body {
 body {
     background-image: url('Images/backgroundpic.jpg'); /* Adjust the path based on your project structure */
     background-size: 120% 120%;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     margin: 0; /* Remove default margin for the body element */
     padding: 0; /* Remove default padding for the body element */
