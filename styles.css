@@ -34,6 +34,15 @@ body {
     font-weight: bold;
   }
   
+  .image-section {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .logo-image {
+    max-width: 100%;
+  }
+  
   .main-content {
     /* Add styles for your main content area */
     padding: 20px;
