@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Sans+MS&display=swap">
+  <title>News | League of Basketball</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    iframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .back-button {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      padding: 10px;
+      background-color: #ffffff; /* Button background color */
+      color: #000000; /* Button text color */
+      border: none;
+      cursor: pointer;
+    }
+
+    .news-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+      padding: 20px; /* Add padding for better visibility */
+    }
+
+    .news-article {
+      max-width: 600px;
+      margin: 20px;
+      padding: 20px;
+      background: #000000; /* Black background color */
+      color: white; /* Text color */
+      border: 1px solid #ffffff; /* White thin border */
+      border-radius: 5px; /* Rounded corners */
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow effect */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background YouTube Video -->
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/mJj8SunITt0?si=3rSt_zHj-uRA8DFQ"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+
+  <!-- Back to Home Button -->
+  <button class="back-button" onclick="window.location.href='index.html'">Home</button>
+
+  <!-- Main Content Section -->
+  <section class="main-content">
+    <!-- News Container -->
+    <div class="news-container">
+      <!-- News Articles -->
+      <div class="news-article">
+        <h2>Breaking News: LOB Championship Winners!</h2>
+        <p>The League of Basketball (LOB) Championship concluded with a thrilling finale. Team OMEGA emerged as the champions, securing their victory with remarkable teamwork and skillful plays.</p>
+        <p>Stay tuned for exclusive interviews with the winning team and highlights from the championship games.</p>
+      </div>
+
+      <div class="news-article">
+        <h2>New Season Announced</h2>
+        <p>Exciting news for basketball enthusiasts! LOB is thrilled to announce the upcoming season, featuring more teams, intense matchups, and electrifying moments on the court. Get ready for another season of basketball action!</p>
+      </div>
+
+      <!-- Add more news articles as needed -->
+
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
