@@ -21,24 +21,6 @@
       z-index: -1;
     }
 
-    .team-columns {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-      color: white;
-      padding: 20px; /* Add padding to make content visible on top of the video */
-      box-sizing: border-box;
-    }
-
-    .team-column {
-      flex: 1;
-    }
-
-    .team-list {
-      list-style-type: none;
-      padding: 0;
-    }
-
     .back-button {
       position: fixed;
       top: 20px;
@@ -48,6 +30,32 @@
       color: #000000; /* Button text color */
       border: none;
       cursor: pointer;
+    }
+
+    .team-columns {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Make sure the container takes the full height of the viewport */
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+      padding: 20px; /* Add padding for better visibility */
+    }
+
+    .team-column {
+      flex: 1;
+      max-width: 300px; /* Adjust the maximum width of each column */
+      background: #000000; /* Black background color */
+      color: white; /* Text color */
+      border: 1px solid #ffffff; /* White thin border */
+      border-radius: 5px; /* Rounded corners */
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White shadow effect */
+      margin: 10px; /* Adjust margin between columns */
+      padding: 10px; /* Add padding for better visibility */
+    }
+
+    .team-list {
+      list-style-type: none;
+      padding: 0;
     }
   </style>
 </head>
@@ -65,7 +73,7 @@
   ></iframe>
 
   <!-- Back to Home Button -->
-  <button class="back-button" onclick="window.location.href='index.html'">Home</button>
+  <button class="back-button" onclick="window.location.href='home.html'">Back to Home</button>
 
   <!-- Main Content Section -->
   <section class="main-content">
