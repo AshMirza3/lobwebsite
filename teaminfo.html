@@ -7,11 +7,28 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Sans+MS&display=swap">
   <title>Team Info | League of Basketball</title>
   <style>
-    /* Add styles for the two columns */
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translateX(-50%) translateY(-50%);
+      z-index: -1;
+    }
+
     .team-columns {
       display: flex;
       justify-content: space-between;
       margin-top: 20px;
+      color: white;
     }
 
     .team-column {
@@ -26,34 +43,14 @@
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header class="header">
-    <h1 class="title">League of Basketball</h1>
-  </header>
-
-  <!-- Navigation Section -->
-  <nav class="nav">
-    <ul class="nav-list">
-      <li><a href="home.html">Home</a></li>
-      <li><a href="teaminfo.html">Team Info</a></li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="schedule.html">Schedule</a></li>
-      <li><a href="leaderboard.html">Leaderboard</a></li>
-      <li><a href="stats.html">Stats</a></li>
-    </ul>
-  </nav>
-
-  <!-- Image Section -->
-  <section class="image-section">
-    <img src="Images/lobpicture.jpeg" alt="League of Basketball Logo">
-  </section>
+  <!-- Background Video -->
+  <video autoplay muted loop>
+    <source src="path/to/michael_jordan_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
   <!-- Main Content Section -->
   <section class="main-content">
-    <div class="centered-paragraph">
-      <p>Experience the excitement of basketball in Karachi, Pakistan. LOB began five years ago as a non-profit organization and has remained a non-profit organization to this day, providing a strong platform for the widespread basketball talent in Pakistan. The league, owned by Shahzain Malik who is helped by his team, has come a long way. They have secured many sponsorships and now a contract with Geo Super, allowing LOB to gain the reach many thought they never could. LOB is going nationwide, and you're a part of the journey. </p>
-    </div>
-
     <!-- Two Vertical Lists Side by Side -->
     <div class="team-columns">
       <!-- D-MAX Conference -->
@@ -86,24 +83,7 @@
         </ul>
       </div>
     </div>
-
-    <!-- Sponsors Box -->
-    <div class="sponsors-box">
-      <h3>Sponsors</h3>
-      <ul>
-        <li>Geo Super</li>
-        <li>FeMax</li>
-        <li>D-Max</li>
-        <li>Hilton Pharma</li>
-        <li>Swag Kicks</li>
-      </ul>
-    </div>
   </section>
-
-  <!-- Footer Section -->
-  <footer class="footer">
-    <p>Follow us on Insta: <a href="https://www.instagram.com/league.of.basketball" target="_blank" rel="noopener noreferrer">league.of.basketball</a></p>
-  </footer>
 
   <script src="app.js"></script>
 </body>
