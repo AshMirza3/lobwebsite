@@ -3,25 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Info | League of Basketball</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Sans+MS&display=swap">
+  <title>Team Info | League of Basketball</title>
+  <style>
+    /* Add styles for the two columns */
+    .team-columns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .team-column {
+      flex: 1;
+    }
+
+    .team-list {
+      list-style-type: none;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>League of Basketball</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="teaminfo.html">Team Info</a>
-      <!-- Add more navigation links as needed -->
-    </nav>
-  </header>
-  
-  <main class="container">
-    <h2>Team Info</h2>
-    <!-- Add team information content here -->
-  </main>
 
-  <footer>
+  <!-- Header Section -->
+  <header class="header">
+    <h1 class="title">League of Basketball</h1>
+  </header>
+
+  <!-- Navigation Section -->
+  <nav class="nav">
+    <ul class="nav-list">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="teaminfo.html">Team Info</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="stats.html">Stats</a></li>
+    </ul>
+  </nav>
+
+  <!-- Image Section -->
+  <section class="image-section">
+    <img src="Images/lobpicture.jpeg" alt="League of Basketball Logo">
+  </section>
+
+  <!-- Main Content Section -->
+  <section class="main-content">
+    <div class="centered-paragraph">
+      <p>Experience the excitement of basketball in Karachi, Pakistan. LOB began five years ago as a non-profit organization and has remained a non-profit organization to this day, providing a strong platform for the widespread basketball talent in Pakistan. The league, owned by Shahzain Malik who is helped by his team, has come a long way. They have secured many sponsorships and now a contract with Geo Super, allowing LOB to gain the reach many thought they never could. LOB is going nationwide, and you're a part of the journey. </p>
+    </div>
+
+    <!-- Two Vertical Lists Side by Side -->
+    <div class="team-columns">
+      <!-- D-MAX Conference -->
+      <div class="team-column">
+        <h3>D-MAX Conference</h3>
+        <ul class="team-list">
+          <li>Team 1</li>
+          <li>Team 2</li>
+          <li>Team 3</li>
+          <li>Team 4</li>
+          <li>Team 5</li>
+          <li>Team 6</li>
+          <li>Team 7</li>
+          <li>Team 8</li>
+        </ul>
+      </div>
+
+      <!-- HINUCON Conference -->
+      <div class="team-column">
+        <h3>HINUCON Conference</h3>
+        <ul class="team-list">
+          <li>Team A</li>
+          <li>Team B</li>
+          <li>Team C</li>
+          <li>Team D</li>
+          <li>Team E</li>
+          <li>Team F</li>
+          <li>Team G</li>
+          <li>Team H</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sponsors Box -->
+    <div class="sponsors-box">
+      <h3>Sponsors</h3>
+      <ul>
+        <li>Geo Super</li>
+        <li>FeMax</li>
+        <li>D-Max</li>
+        <li>Hilton Pharma</li>
+        <li>Swag Kicks</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
     <p>Follow us on Insta: <a href="https://www.instagram.com/league.of.basketball" target="_blank" rel="noopener noreferrer">league.of.basketball</a></p>
   </footer>
 
