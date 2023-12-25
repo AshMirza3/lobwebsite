@@ -104,7 +104,6 @@ body {
   padding: 0; /* Remove default padding for the body element */
 }
   .background-pic {
-    height: 100vh; /* Set the height of the section (e.g., full viewport height) */
     transform: scale(0.8);
 }
 
