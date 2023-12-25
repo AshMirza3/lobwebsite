@@ -103,6 +103,9 @@ body {
     margin: 0; /* Remove default margin for the body element */
     padding: 0; /* Remove default padding for the body element */
   }
+  .backgroundpic{
+    transform: 0.8;
+  }
   
 
 
