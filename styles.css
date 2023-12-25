@@ -61,11 +61,11 @@ body {
   /* Add this to your CSS file */
 .sponsors-box {
     position: absolute;
-    bottom: 30px;
-    right: 10px;
+    bottom: 15px;
+    right: 8px;
     border: 1px solid black;
-    padding: 10px;
-    background-color: rgb(55, 72, 185);
+    padding: 5px;
+    background-color: rgba(110, 116, 154, 0);
   }
   
   .sponsors-box h3 {
