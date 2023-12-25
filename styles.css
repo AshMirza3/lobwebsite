@@ -84,8 +84,7 @@ body {
 /* Add this to your CSS file */
 .footer {
     text-align: center;
-    background-color: #333;
-    color: white;
+    color: rgb(99, 9, 9);
     padding: 10px;
     position: absolute;
     bottom: 0;
