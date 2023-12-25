@@ -102,7 +102,6 @@ body {
     background-repeat: no-repeat;
     margin: 0; /* Remove default margin for the body element */
     padding: 0; /* Remove default padding for the body element */
-    transform: scale(0.8); /* Adjust the scaling factor as needed */
   }
   
 
