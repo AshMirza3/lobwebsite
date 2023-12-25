@@ -5,8 +5,8 @@ body {
   }
   
   .header {
-    background-color: #1678c8;
-    color: rgb(179, 173, 173);
+    background-color: #1678c800;
+    color: rgb(106, 102, 102);
     text-align: center;
     padding: 1rem;
   }
@@ -63,7 +63,7 @@ body {
     position: absolute;
     bottom: 15px;
     right: 8px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
     padding: 5px;
     background-color: rgba(110, 116, 154, 0);
   }
