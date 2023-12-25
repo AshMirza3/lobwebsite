@@ -116,7 +116,7 @@ body {
 }
 .background-pic {
   background-image: url('Images/backgroundpic.jpg'); /* Adjust the path based on your project structure */
-  background-size: cover;
+  background-size: 90px 90px;
   background-position: center;
   background-repeat: no-repeat;
   transform: scale(0.2);
