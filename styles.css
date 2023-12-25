@@ -9,6 +9,17 @@ body {
     color: rgb(106, 102, 102);
     text-align: center;
     padding: 1rem;
+    position: relative;
+  }
+
+  .line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    background-color: white;
   }
   
   .title {
@@ -103,8 +114,12 @@ body {
   margin: 0; /* Remove default margin for the body element */
   padding: 0; /* Remove default padding for the body element */
 }
-  .background-pic {
-    transform: scale(0.2);
+.background-pic {
+  background-image: url('Images/backgroundpic.jpg'); /* Adjust the path based on your project structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(0.2);
 }
 
   
