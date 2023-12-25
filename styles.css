@@ -96,9 +96,13 @@ body {
 /* Add this to your CSS file */
 /* Add this to your CSS file */
 body {
-    margin: 0; /* Remove default margin for the body element */
-    padding: 0; /* Remove default padding for the body element */
-  }
+  background-image: url('Images/backgroundpic.jpg'); /* Adjust the path based on your project structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0; /* Remove default margin for the body element */
+  padding: 0; /* Remove default padding for the body element */
+}
   .background-pic {
     background-image: url('Images/backgroundpic.jpg');
     background-size: cover; /* Adjust to cover the entire section */
