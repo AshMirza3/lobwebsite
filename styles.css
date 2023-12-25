@@ -98,7 +98,7 @@ body {
 /* Add this to your CSS file */
 body {
     background-image: url('Images/backgroundpic.jpg'); /* Adjust the path based on your project structure */
-    background-size: 100% 100%;
+    background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
     margin: 0; /* Remove default margin for the body element */
