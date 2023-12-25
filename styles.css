@@ -107,19 +107,15 @@ body {
 /* Add this to your CSS file */
 /* Add this to your CSS file */
 body {
-  background-image: url('Images/backgroundpic.jpg'); /* Adjust the path based on your project structure */
-  background-size: 90px 90px;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0; /* Remove default margin for the body element */
-  padding: 0; /* Remove default padding for the body element */
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 .background-pic {
-  background-image: url('Images/backgroundpic.jpg'); /* Adjust the path based on your project structure */
-  background-size: 90px 90px;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: scale(0.2);
+  background-image: url('Images/backgroundpic.jpg');
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
   
