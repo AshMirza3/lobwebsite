@@ -104,11 +104,6 @@ body {
   padding: 0; /* Remove default padding for the body element */
 }
   .background-pic {
-    background-image: url('Images/backgroundpic.jpg');
-    background-size: cover; /* Adjust to cover the entire section */
-    background-position: center; /* Adjust to position the image */
-    background-repeat: no-repeat;
-    /* Add other styles as needed */
     height: 100vh; /* Set the height of the section (e.g., full viewport height) */
     transform: scale(0.8);
 }
