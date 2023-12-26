@@ -1,123 +1,114 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .header {
-    background-color: #1678c800;
-    color: rgb(106, 102, 102);
-    text-align: center;
-    padding: 1rem;
-    position: relative;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
 
-  .line {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
-    height: 2px;
-    background-color: white;
-  }
-  
-  .title {
-    margin: 0;
-  }
-  
-  .nav {
-    background-color: #44444400;
-  }
-  
-  .nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .nav-list a {
-    text-decoration: none;
-    color: rgb(33, 25, 25);
-    font-weight: bold;
-  }
-  
-  .image-section {
-    text-align: left;
-    padding: 20px;
-  }
-  
-  .logo-image {
-    max-width: 120%;
-  }
-  
-  .main-content {
-    /* Add styles for your main content area */
-    padding: 20px;
-  }
-/* Add this to your CSS file */
-.centered-paragraph {
-    text-align: center;
-    font-family: 'Comic Sans MS', cursive;
-    margin-top: 20px; /* Adjust margin as needed */
-  }
-  
-  .centered-paragraph p {
-    font-size: 20px; /* Adjust font size as needed */
-  }
+.header {
+  background-color: #1678c800;
+  color: rgb(106, 102, 102);
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
 
-  /* Add this to your CSS file */
-.sponsors-box {
-    position: absolute;
-    bottom: 15px;
-    right: 8px;
-    border: 1px solid rgba(0, 0, 0, 0);
-    padding: 5px;
-    background-color: rgba(110, 116, 154, 0);
-  }
-  
-  .sponsors-box h3 {
-    text-align: center;
-  }
-  
-  .sponsors-box ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sponsors-box li {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-/* Add this to your CSS file */
-.footer {
-    text-align: center;
-    color: rgb(99, 9, 9);
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-    
-    /* Add this to your CSS file */
-/* Add this to your CSS file */
-/* Add this to your CSS file */
-body {
-  background-image: url('Images/backgroundpic.jpg'); /* Adjust the path based on your project structure */
+.title {
+  margin: 0;
+}
+
+.line {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 2px;
+  background-color: white;
+}
+
+.nav {
+  background-color: #44444400;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.image-section {
+  text-align: left;
+  padding: 20px;
+  position: relative;
+}
+
+.logo-image {
+  max-width: 100%; /* Adjust as needed */
+}
+
+.background-pic {
+  background-image: url('Images/backgroundpic.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0; /* Remove default margin for the body element */
-  padding: 0; /* Remove default padding for the body element */
+  height: 100vh; /* Adjust as needed */
 }
 
+.main-content {
+  padding: 20px;
+  position: relative;
+}
 
-  
+.centered-paragraph {
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
 
+.centered-paragraph p {
+  font-size: 20px;
+}
 
-  
-/* Adjust other styles as needed */
+.sponsors-box {
+  position: absolute;
+  bottom: 15px;
+  right: 8px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 5px;
+  background-color: rgba(110, 116, 154, 0);
+}
+
+.sponsors-box h3 {
+  text-align: center;
+}
+
+.sponsors-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sponsors-box li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer {
+  text-align: center;
+  color: rgb(99, 9, 9);
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
