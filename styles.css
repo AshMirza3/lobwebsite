@@ -77,13 +77,24 @@ body {
   font-size: 16px;
 }
 
+.footer {
+  text-align: center;
+  color: rgb(99, 9, 9);
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .sponsors-box {
-  position: absolute;
-  bottom: 15px;
-  right: 8px;
   border: 1px solid rgba(0, 0, 0, 0);
   padding: 5px;
-  background-color: rgba(110, 116, 154, 0.8); /* Predominantly transparent background */
+  background-color: rgba(110, 116, 154, 0.8);
 }
 
 .sponsors-box h3 {
@@ -97,19 +108,9 @@ body {
 
 .sponsors-box li {
   font-size: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
-.footer {
-  text-align: center;
-  color: rgb(99, 9, 9);
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.8); /* Predominantly transparent background */
-}
 
 /* Responsive Design */
 
