@@ -43,7 +43,7 @@ body {
 
 .nav-list a {
   text-decoration: none;
-  color: white;
+  color: rgba(7, 6, 6, 0.557);
   font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ body {
 
 .footer {
   text-align: center;
-  color: rgb(99, 9, 9);
+  color: rgb(0, 0, 0);
   padding: 10px;
   position: fixed;
   bottom: 0;
@@ -85,9 +85,13 @@ body {
 }
 
 .sponsors-box {
-  border: 1px solid rgba(0, 0, 0, 0);
-  padding: 5px;
-  background-color: rgba(110, 116, 154, 0.8);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgba(128, 85, 85, 0.262);
+  opacity: 0.8; /* Adjust opacity as needed */
 }
 
 .sponsors-box h3 {
@@ -100,7 +104,7 @@ body {
 }
 
 .sponsors-box li {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 5px;
 }
 
