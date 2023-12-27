@@ -49,6 +49,23 @@ body {
   font-weight: bold;
 }
 
+.nav-list a:after {
+  content: '';
+  display: block;
+  width: 100%; /* Start with the line fully visible in white */
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  transition: background-color 0.3s; /* Add transition for smoother effect */
+}
+
+.nav-list a:hover:after,
+.nav-list a:focus:after {
+  background-color: red; /* Change line color to red on hover or focus */
+}
+
 .image-section {
   text-align: left;
   padding: 20px;
