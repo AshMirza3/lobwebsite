@@ -80,15 +80,16 @@ body {
 
 .sponsors-box {
   position: absolute;
-  bottom: 5px;
+  bottom: 2px;
   right: 8px;
   border: 1px solid rgba(0, 0, 0, 0);
-  padding: 4px;
+  padding: 2px;
   background-color: rgba(110, 116, 154, 0);
 }
 
 .sponsors-box h3 {
   text-align: center;
+  color:rgb(0, 0, 0);
 }
 
 .sponsors-box ul {
