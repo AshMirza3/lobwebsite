@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  background-color: #1678c800;
+  background-color: #1678c8;
   color: rgb(106, 102, 102);
   text-align: center;
   padding: 1rem;
@@ -49,30 +49,14 @@ body {
   font-weight: bold;
 }
 
-.nav-list a:after {
-  content: '';
-  display: block;
-  width: 100%; /* Start with the line fully visible in white */
-  height: 2px;
-  background-color: white;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  transition: background-color 0.3s; /* Add transition for smoother effect */
-}
-
-.nav-list a:hover:after,
-.nav-list a:focus:after {
-  background-color: red; /* Change line color to red on hover or focus */
-}
-
 .image-section {
   text-align: left;
   padding: 20px;
 }
 
 .logo-image {
-  max-width: 120%;
+  max-width: 100%;
+  height: auto;
 }
 
 .main-content {
@@ -81,17 +65,12 @@ body {
 
 .centered-paragraph {
   text-align: center;
-  font-family: 'Comic Sans MS';
+  font-family: 'Comic Sans MS', cursive;
   margin-top: 20px;
-  position: relative;
 }
 
 .centered-paragraph p {
-  font-size: 20px;
-  background-color: rgba(167, 151, 151, 0.44); /* Slightly transparent white background */
-  padding: 20px; /* Add padding to create the bubble effect */
-  border-radius: 10px; /* Rounded corners for the bubble */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.251); /* Add a subtle shadow for depth */
+  font-size: 16px;
 }
 
 .sponsors-box {
@@ -113,7 +92,7 @@ body {
 }
 
 .sponsors-box li {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 5px;
 }
 
@@ -127,14 +106,30 @@ body {
   right: 0;
 }
 
-.note {
-  font-size: 12px;
-  color: #555;
-  margin-top: 10px;
-}
+/* Responsive Design */
 
-.copyright {
-  font-size: 12px;
-  color: #555;
-  margin-top: 5px;
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-list a {
+    margin-bottom: 10px;
+  }
+
+  .header {
+    padding: 0.5rem;
+  }
+
+  .line {
+    height: 1px;
+  }
+
+  .centered-paragraph p {
+    font-size: 14px;
+  }
+
+  .sponsors-box {
+    font-size: 10px;
+  }
 }
