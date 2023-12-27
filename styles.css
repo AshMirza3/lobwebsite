@@ -88,10 +88,10 @@ body {
 
 .centered-paragraph p {
   font-size: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  background-color: rgba(167, 151, 151, 0.44); /* Slightly transparent white background */
   padding: 20px; /* Add padding to create the bubble effect */
   border-radius: 10px; /* Rounded corners for the bubble */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.251); /* Add a subtle shadow for depth */
 }
 
 .sponsors-box {
