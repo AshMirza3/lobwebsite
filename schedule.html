@@ -141,6 +141,16 @@
       const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
       return date.toLocaleDateString('en-US', options);
     }
+
+    <!-- Add this to the end of the body section in each HTML file -->
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const navbarContainer = document.getElementById('navbar-container');
+    const navbarScript = document.createElement('script');
+    navbarScript.src = 'navbar.html';
+    navbarContainer.appendChild(navbarScript);
+  });
+
   </script>
 </body>
 </html>

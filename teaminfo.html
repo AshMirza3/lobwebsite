@@ -111,6 +111,17 @@
     </div>
   </section>
 
+  <!-- Add this to the end of the body section in each HTML file -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const navbarContainer = document.getElementById('navbar-container');
+    const navbarScript = document.createElement('script');
+    navbarScript.src = 'navbar.html';
+    navbarContainer.appendChild(navbarScript);
+  });
+</script>
+
+
   <script src="app.js"></script>
 </body>
 </html>
