@@ -1,14 +1,8 @@
 body {
+  background-color: white; /* Set background color to white */
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-image: url('Images/lobpicture.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh; /* Set the height to 100% of the viewport height */
-  display: flex;
-  flex-direction: column;
 }
 
 
@@ -51,17 +45,6 @@ body {
   text-decoration: none;
   color: white;
   font-weight: bold;
-}
-
-.image-section {
-  text-align: left;
-  padding: 20px;
-}
-
-.logo-image {
-  max-width: 100%;
-  height: auto;
-  position: relative;
 }
 
 .main-content {
