@@ -54,13 +54,9 @@ body {
 }
 
 .centered-paragraph {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
   font-family: 'Arial', sans-serif;
-  margin-top: 20px; /* Adjust margin as needed */
+  margin-top: 30px; /* Adjust margin as needed */
 }
 
 .centered-paragraph p {
