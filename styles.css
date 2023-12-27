@@ -6,10 +6,14 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
 }
 
+
 .header {
-  background-color: #1678c8;
+  background-color: #4e4f4f65;
   color: rgb(106, 102, 102);
   text-align: center;
   padding: 1rem;
@@ -93,7 +97,7 @@ body {
 
 .sponsors-box li {
   font-size: 12px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .footer {
